@@ -1,0 +1,33 @@
+.body{
+    margin-top:5% ;
+    margin-left:15% ;
+    margin-right:15% ;
+    border:1px solid black;
+    padding:3% ;
+    text-shadow: 1px 1px 1px rgb(175, 175, 175);
+    box-shadow:  0 0 3em rgb(83, 83, 83);
+}
+.myName, .colage, {
+    position: absolute;
+ }
+.myPhoto{
+    width:20%;
+    float: right;
+    margin-top: 4% ;
+    margin-right:5%;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    box-shadow: 2px 4px 10px rgb(116, 116, 116);
+}
+.personalTable{
+    width:50%;
+}
+tr:hover , li:hover, h1:hover ,h2:hover ,h3:hover,h4:hover {
+    background-color: #f5f5f5
+}
+.footer{
+    font-size:small;
+    text-align:center;
+    line-height:1%;
+    padding-top:35px;
+}
