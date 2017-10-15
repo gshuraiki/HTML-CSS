@@ -6,6 +6,7 @@
     padding:3% ;
     text-shadow: 1px 1px 1px rgb(175, 175, 175);
     box-shadow:  0 0 3em rgb(83, 83, 83);
+    font-size: 1.2vw;
 }
 .myName, .colage, {
     position: absolute;
