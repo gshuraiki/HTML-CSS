@@ -24,6 +24,7 @@ font-size:1.5vw;
 }
 
 /* desktop view */
+
 @media screen and (min-width: 1000px) {
   #grid-flex {
   display:flex;
@@ -48,12 +49,13 @@ font-size:1.5vw;
   #grid-floats li:nth-child(-n+2){
   width: 46%;
   margin:1%;
+  height: 22em;
   }
   #grid-floats .grid-item{
   float: left;
   margin:0.5%;
   width: 23%;
-  height:50vh;
+  height: 20em;
   text-align: center;
   }
 }
@@ -84,12 +86,13 @@ font-size:1.5vw;
   #grid-floats li:nth-child(-n+2){
   width: 47%;
   margin:1%;
+  height: 23em;
   }
   #grid-floats .grid-item{
   float: left;
   margin:0.5%;
   width: 32%;
-  height: 38vh;
+  height:20em;
   text-align: center;
   }
  }
@@ -118,13 +121,13 @@ font-size:1.5vw;
   #grid-floats li:nth-child(1){
   width: 91%;
   margin:1%;
-  height: auto;
+  height: 26em;
   }
   #grid-floats .grid-item{
   float: left;
   margin:0.5%;
   width: 46%;
-  height:calc(300px + (350 - 250) * ((100vw - 300px) / (1600 - 300)));
+  height: 21em;
   text-align: center;
   }
 }
