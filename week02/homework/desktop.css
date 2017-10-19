@@ -1,0 +1,58 @@
+﻿html{
+  background-color:#F20075;
+}
+main{
+  font-size: calc(8px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  background-color:aqua;
+}
+main section:nth-child(1) #grid-floats .grid-item:nth-child(odd){
+  background-color: #FF6EB0;
+}
+main section:nth-child(1) #grid-floats .grid-item:nth-child(even){
+  background-color: #FFCB00;
+}
+
+main section:nth-child(2){
+  clear: both;
+  padding-top: 10%;  
+}
+img{width:50%;}
+
+main section:nth-child(1) #grid-floats .grid-item:nth-child(2) h3{
+font-size:1.5vw;  
+}
+
+#grid-flex {
+  display:flex;
+  flex-wrap: wrap; 
+  text-align: center;  
+  }
+  #grid-flex .grid-item:nth-child(-n+3){
+  width: 30%;
+  margin:1%
+    
+  }
+  #grid-flex .grid-item:nth-child(n+4){
+  width: 23%;
+  margin:0.5%;
+  }
+  #grid-flex .grid-item:nth-child(odd){
+  background-color: #FF6EB0;
+  }
+    #grid-flex .grid-item:nth-child(even){
+  background-color: #FFCB00;
+  }
+  #grid-floats li:nth-child(-n+3){
+  width: 30%;
+  margin:1%;
+  }
+  #grid-floats .grid-item{
+  float: left;
+  margin:0.5%;
+  width: 23%;
+  height: calc(300px + (350 - 250) * ((100vw - 300px) / (1600 - 300)));
+  text-align: center;
+  }
+}
+
+

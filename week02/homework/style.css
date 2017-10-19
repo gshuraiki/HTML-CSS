@@ -1,0 +1,131 @@
+html{
+  background-color:#F20075;
+  }
+main{
+  font-size: calc(8px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  background-color:aqua;
+}
+
+main section:nth-child(1) #grid-floats .grid-item:nth-child(odd){
+  background-color: #B84B9E;
+}
+main section:nth-child(1) #grid-floats .grid-item:nth-child(even){
+  background-color: #FFCB00;
+}
+
+main section:nth-child(2){
+  clear: both;
+  padding-top: 10%;  
+}
+img{width:50%;}
+
+main section:nth-child(1) #grid-floats .grid-item:nth-child(2) h3{
+font-size:1.5vw;  
+}
+
+/* desktop view */
+
+@media screen and (min-width: 1000px) {
+  #grid-flex {
+  display:flex;
+  flex-wrap: wrap; 
+  text-align: center;  
+  }
+  #grid-flex .grid-item:nth-child(-n+2){
+  width: 46%;
+  margin:1%
+    
+  }
+  #grid-flex .grid-item:nth-child(n+3){
+  width: 23%;
+  margin:0.5%;
+  }
+  #grid-flex .grid-item:nth-child(odd){
+  background-color: #B84B9E;
+  }
+    #grid-flex .grid-item:nth-child(even){
+  background-color: #FFCB00;
+  }
+  #grid-floats li:nth-child(-n+2){
+  width: 46%;
+  margin:1%;
+  }
+  #grid-floats .grid-item{
+  float: left;
+  margin:0.5%;
+  width: 23%;
+  height: calc(300px + (350 - 250) * ((100vw - 300px) / (1600 - 300)));
+  text-align: center;
+  }
+}
+
+/* tablet view */
+
+@media screen and (min-width: 700px) and (max-width: 999px) {
+  #grid-flex {
+  display:flex;
+  flex-wrap: wrap; 
+  text-align: center;  
+  }
+  #grid-flex .grid-item:nth-child(-n+2){
+  width: 47%;
+  margin:1%
+    
+  }
+  #grid-flex .grid-item:nth-child(n+3){
+  width: 32%;
+  margin:0.5%;
+  }
+  #grid-flex .grid-item:nth-child(odd){
+  background-color: #B84B9E;
+  }
+    #grid-flex .grid-item:nth-child(even){
+  background-color: #FFCB00;
+  }
+  #grid-floats li:nth-child(-n+2){
+  width: 47%;
+  margin:1%;
+  }
+  #grid-floats .grid-item{
+  float: left;
+  margin:0.5%;
+  width: 32%;
+  height: calc(300px + (350 - 250) * ((100vw - 300px) / (1600 - 300)));
+  text-align: center;
+  }
+ }
+    /* mobile view */
+
+@media screen and (max-width: 700px) {
+  #grid-flex {
+  display:flex;
+  flex-wrap: wrap; 
+  text-align: center; 
+  }
+  #grid-flex .grid-item:nth-child(1){
+  width: 91%;
+  margin:1%
+  }
+  #grid-flex .grid-item:nth-child(n+2){
+  width: 46%;
+  margin:0.5%;
+  }
+  #grid-flex .grid-item:nth-child(odd){
+  background-color: #00AAA0;
+  }
+    #grid-flex .grid-item:nth-child(even){
+  background-color: #FF7A5A;
+  }
+  #grid-floats li:nth-child(1){
+  width: 91%;
+  margin:1%;
+  height: auto;
+  }
+  #grid-floats .grid-item{
+  float: left;
+  margin:0.5%;
+  width: 46%;
+  height: calc(300px + (350 - 250) * ((100vw - 300px) / (1600 - 300)));
+  text-align: center;
+  }
+}
