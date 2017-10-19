@@ -124,7 +124,7 @@ font-size:1.5vw;
   float: left;
   margin:0.5%;
   width: 46%;
-  height: 32vh;
+  height:calc(300px + (350 - 250) * ((100vw - 300px) / (1600 - 300)));
   text-align: center;
   }
 }
