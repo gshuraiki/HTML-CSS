@@ -1,17 +1,48 @@
 html{
   background-color:#F20075;
   font-size: calc(8px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
-  }
+}
+li:hover{box-shadow: 0px 0px 20px  black;}
+h2,h1{
+  font-family: 'Faster One', cursive;
+  font-size: 2.5em;
+}
+h2{
+  position: relative;
+  animation-name: h2;
+  animation-duration: 10s;
+  animation-iteration-count: 10000;
+}
+@keyframes h2 {
+    0%   {left:0px; top:0px;}
+    50%  {left:405px; top:0px;}
+    100% {left:0px; top:0px;}
+}
+
 main{
   background-color:aqua;
 }
 
 main section:nth-child(1) #grid-floats .grid-item:nth-child(odd){
   background-color: #B84B9E;
+  animation-name: odd1;
+  animation-duration: 20s;
+  animation-iteration-count: 1000;
+@keyframes odd1 {
+    from {background-color: #B84B9E;}
+    to {background-color: #FFCB00;}
+  }
 }
 main section:nth-child(1) #grid-floats .grid-item:nth-child(even){
   background-color: #FFCB00;
+  animation-name: even1;
+  animation-duration: 20s;
+  animation-iteration-count: 1000;
 }
+@keyframes even1 {
+    from {background-color:  #FFCB00;}
+    to {background-color: #B84B9E;}
+  }
 
 main section:nth-child(2){
   clear: both;
@@ -41,10 +72,24 @@ font-size:1.5vw;
   margin:0.5%;
   }
   #grid-flex .grid-item:nth-child(odd){
-  background-color: #B84B9E;
+  background-color: #00AAA0;
+  animation-name: odd;
+  animation-duration: 20s;
+  animation-iteration-count: 1000;
   }
-    #grid-flex .grid-item:nth-child(even){
-  background-color: #FFCB00;
+  @keyframes odd {
+    from {background-color: #00AAA0;}
+    to {background-color: #FF7A5A;}
+  }
+  #grid-flex .grid-item:nth-child(even){
+  background-color: #FF7A5A;
+  animation-name: even;
+  animation-duration: 20s;
+  animation-iteration-count: 1000;
+  }
+  @keyframes even {
+    from {background-color: #FF7A5A;}
+    to {background-color: #00AAA0;}
   }
   #grid-floats li:nth-child(-n+2){
   width: 46%;
@@ -131,3 +176,4 @@ font-size:1.5vw;
   text-align: center;
   }
 }
+
