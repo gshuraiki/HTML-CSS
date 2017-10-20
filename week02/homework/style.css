@@ -8,20 +8,19 @@ h2,h1{
   font-size: 2.5em;
 }
 
-main{
-  background-color:aqua;
-}
+main{background-color:aqua;}
 
 main section:nth-child(1) #grid-floats .grid-item:nth-child(odd){
   background-color: #B84B9E;
   animation-name: odd1;
   animation-duration: 20s;
   animation-iteration-count: 1000;
+}
 @keyframes odd1 {
     from {background-color: #B84B9E;}
     to {background-color: #FFCB00;}
   }
-}
+
 main section:nth-child(1) #grid-floats .grid-item:nth-child(even){
   background-color: #FFCB00;
   animation-name: even1;
@@ -49,14 +48,15 @@ font-size:1.5vw;
 
 @media screen and (min-width: 1000px) {
   
-  h2{  position: relative;
+  h2 {  
+  position: relative;
   animation-name: h2;
   animation-duration: 10s;
   animation-iteration-count: 10000;
 }
 @keyframes h2 {
     0%   {left:0px; top:0px;}
-    50%  {left:405px; top:0px;}
+    50%  {left:650px; top:0px;}
     100% {left:0px; top:0px;}
 }
   
@@ -67,9 +67,9 @@ font-size:1.5vw;
   }
   #grid-flex .grid-item:nth-child(-n+2){
   width: 46%;
-  margin:1%
-    
+  margin:1%;
   }
+  
   #grid-flex .grid-item:nth-child(n+3){
   width: 23%;
   margin:0.5%;
