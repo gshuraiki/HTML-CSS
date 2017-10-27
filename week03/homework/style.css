@@ -1,0 +1,307 @@
+html{
+  font-size: calc(6px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+body{
+  margin:0px;
+}
+.navigator {
+  background-color:#F7A100;
+  padding: 0;
+  min-height: 29px;
+  
+
+}
+.logo{
+  margin-top:0.4%;
+  margin-left: 15%;
+  margin-right: 15%;
+  min-width: 60px;
+
+  }
+.login{
+  position: relative;
+  overflow: auto;
+  background-color: transparent;
+  border-style: none;
+  color: aliceblue;
+  border-left: 0.4px solid lightgray;
+  border-right: 0.2px solid lightgray;
+  display: inline-block;
+  float:right;
+  right:15%;
+  min-height:3em;
+  font-size: 10px;
+}
+.login:hover{background-color: darkgoldenrod}
+
+.head{
+  position: relative;
+  height: 12em;
+  width: 100%;
+  overflow: hidden;
+}
+.backgroundPhoto{
+  background-image:url(https://assets.fstatic.nl/master_1437/assets/components/search-banner/images/eengezins-silhouet.svg);
+  background-repeat:no-repeat;
+  background-size: cover;
+  width: 100%;
+  height:100%;
+  position: absolute;
+  }
+.leftPhoto{
+  background-image: url(https://assets.fstatic.nl/master_1437/assets/components/search-banner/images/eengezins-links.svg);
+  background-repeat:no-repeat;
+  background-size: contain;
+  height: 100%;
+  width:33%; 
+  position: absolute;
+  
+    
+}
+.rPhoto{
+  background-image: url(https://assets.fstatic.nl/master_1438/assets/components/search-banner/images/eengezins-rechts.svg);
+  background-repeat:no-repeat;
+  background-size: cover;
+  min-height: 100%;
+  width: 33%;
+  right: 0%;
+  position: absolute;
+  }
+.text{
+  position: absolute;
+  top: 5%;
+  left: 15%;
+  bottom:;
+  right: 0;  
+  overflow: hidden;
+  font-size: calc(8px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
+main{
+  background-color: #e6f2f7;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 2%;
+  
+}
+body{
+  background-color: #e6f2f7;
+  
+}
+.searchBar {
+  background-color: #F7A100;
+  height: 10em
+}
+
+form{
+  margin-left: 5%;
+}
+.list{
+  list-style: none;
+  display: inline-flex;
+  top:60%;
+  z-index: 1;
+  color:white;
+  
+  
+}
+.list li {
+  margin-right: 10%;
+  margin-bottom: 3%;
+}
+li:hover{cursor: pointer}
+.plaats{
+  width: 38%;
+  padding: 1px;
+  margin: 1px;
+  font-size: calc(6px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+.km{
+  padding: 1px;
+  width: 6%;
+  margin-right: 3%;
+  font-size: calc(6px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+.van{
+  padding: 1px;
+  width: 15%;
+  margin-right: 4%;
+  font-size: calc(6px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+.tot{
+  padding: 1px;
+  width: 15%;
+  font-size: calc(6px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+.input{
+  padding: 1px;
+  width: 10%;
+  font-size: calc(6px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  background-color: #0071B3;
+  border-style: none;
+  color:white;
+}
+.housePhoto{
+  width: 100%;
+  height: 1000px;
+  overflow: hidden;
+  max-height: 20em;
+  
+  
+}
+.pmiddle{
+  float: left;
+  margin-left:3%;
+  margin-right:3%;
+  width: 31%;
+  
+}
+.pleft{
+  float: left;
+  width: 31%;
+}
+.pright{
+  float: left;
+  width: 31%;
+}
+a {
+  text-decoration-line: none;
+  color: #0071B3;
+}
+.bottomPhoto{
+  background-image: url(https://assets.fstatic.nl/master_1443/assets/components/inspiration-banner/images/20171020-huizen-met-een-naam-min.png);
+  background-repeat:no-repeat;
+  background-size: 100%;
+  height: 11.5em;
+  width: 50%;
+  
+  
+}
+.huizenText {
+  width: 100%;
+  height: 11.5em;
+  color:white;
+  background-color: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  margin-top: 3%;
+  
+}
+.listWithPhoto{
+  width:50%;
+  height:16em;
+  float:left;
+  padding-right: 3%
+}
+.bottomPhotoList{
+  background-image: url(https://content.funda.nl/media/123915/header_2016x658_gamma-herfstklaar-1.jpg?);
+  background-repeat: no-repeat ;
+  background-size: cover;
+  width:35%;
+  height: 16em;
+  position: absolute;
+ 
+}
+.jehuisText {
+  width: 35%;
+  height: 16em;
+  color:white;
+  background-color: rgba(0, 0, 0, 0.4);
+  text-align: left;
+  position: absolute;
+  z-index: 1;
+
+  
+}
+
+.listList{
+  height: 19em;
+}
+.vanDe{
+  margin-top: 5%;
+}
+.photoList{
+  width:7.4%;
+  float:left;
+  padding: 0px;
+
+  
+}
+.photoList ul{
+  list-style: none;
+  padding:0px;
+  margin:0px;
+  
+
+}
+.photoList img{
+  width:100%;
+  margin-bottom: 2%;
+  height: 2.9em;
+
+}
+
+.textList{
+  width:35%;
+  float:left;
+  margin: 0%;
+  padding: 0%;
+  
+
+  }
+.textList ul{
+  list-style: none;
+  padding:0px;
+  margin:0px;
+  
+}
+.textList li{
+  padding-bottom: 1%;
+  padding-left: 6%;
+  height: 2.9em;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  
+}
+footer{
+  background-color: #EDEDED;
+}
+.footer{
+  clear: both;
+  background-color: #EDEDED;
+  margin-top: 2%;
+  padding-left: 15%;
+  height: 20em;
+  
+}
+.listOne ul li{
+  list-style: none;
+  padding-bottom: 4%;
+}
+.listTwo ul li{
+  list-style: none;
+  padding-bottom: 4%; 
+
+}
+.listThree ul li{
+  list-style: none;
+  padding-bottom: 4%;
+}
+.listFour ul li{
+  list-style: none;
+  padding-bottom: 4%;
+}
+.listOne {
+  float:left;
+  width:20%;
+}
+.listTwo {
+  float:left;
+  width:20%
+}
+.listThree {
+  float:left;
+  width:20%
+}
+.listFour {
+  float:left;
+  width:20%
+}
